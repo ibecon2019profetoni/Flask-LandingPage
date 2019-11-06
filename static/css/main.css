@@ -1,0 +1,97 @@
+/* General */
+html{
+    font: 16px sans-serif;
+}
+
+/* fondo */
+body.fondo{
+    box-sizing: border-box;
+    padding: 4rem;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fondo_lunes{
+    background: url('../img/fondo_lunes.jpg');
+}
+.fondo_martes{
+    background: url('../img/fondo_martes.jpg');
+}
+.fondo_miercoles{
+    background: url('../img/fondo_miercoles.jpg');
+}
+/* COLOR */
+.color_lunes{
+    color:#D45D01;
+}
+.color_martes{
+    color:#945B0F;
+}
+.color_miercoles{
+    color:#062C46;    
+}
+
+/* BOTON */
+a.boton{
+    border-radius: 20px;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a.boton_lunes{
+    background-color:#D45D01;
+}
+a.boton_martes{
+    background-color:#945B0F;
+}
+a.boton_miercoles{
+    background-color:#fff;
+}
+a.boton_texto_lunes{
+    color: #fff;
+}
+a.boton_texto_martes{
+    color: #ADDDEF;
+}
+a.boton_texto_miercoles{
+    color: #06324B;
+}
+/* TÍTULO */
+h1{
+    font-size: 5rem;
+}
+
+/* PARRAFO */
+p{
+    width: 80%;
+    text-align: justify;
+    margin: 2rem 0;
+}
+
+/* MAIN */
+body{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho nueve"
+    ;
+}
+main{
+    text-align: center;
+}
+main.lunes{
+    grid-area: cuatro;
+}
+main.martes{
+    grid-area: seis;
+}
+main.miercoles{
+    grid-area: tres;
+}
+

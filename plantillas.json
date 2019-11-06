@@ -1,0 +1,33 @@
+{
+    "1" : {
+        "titulo" : "SILLA",
+        "imagen" : "static/img/fondo_lunes.jpg",
+
+        "class_fondo" : "fondo_lunes",
+        "class_color" : "color_lunes",
+        "class_boton" : "boton_lunes",
+        "class_boton_texto" : "boton_texto_lunes",
+        "class_posicion" : "lunes"
+        
+    },
+    "2" : {
+        "titulo" : "PLAYA",
+        "imagen" : "static/img/fondo_martes.jpg",
+        
+        "class_fondo" : "fondo_martes",
+        "class_color" : "color_martes",
+        "class_boton" : "boton_martes",
+        "class_boton_texto" : "boton_texto_martes",
+        "class_posicion" : "martes"
+    },
+    "3" : {
+        "titulo" : "CLASE",
+        "imagen" : "static/img/fondo_miercoles.jpg",
+        
+        "class_fondo" : "fondo_miercoles",
+        "class_color" : "color_miercoles",
+        "class_boton" : "boton_miercoles",
+        "class_boton_texto" : "boton_texto_miercoles",
+        "class_posicion" : "miercoles"
+    }
+}
